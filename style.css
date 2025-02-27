@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    margin-top: 12px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -18,26 +19,24 @@ body{
 #title-el{
     font-weight: bolder;
 }
-#input-container{
-    margin-top: 12px;
+
+#text-el, #btn-el{
+    border-radius: 12px; 
+    border: none;
 }
+
 
 #text-el{
     padding: 2px 24px;
-    border-radius: 12px; 
-    border: none;
 }
 
 #btn-el{
     background-color: rgb(192, 190, 190);
     padding: 2px 16px;
-    border-radius: 12px; 
-    border: none;
 }
 
 
 #qrcode-container {
-    margin-top: 12px;
     position: relative;
     display: inline-block;
 }
@@ -51,8 +50,4 @@ body{
     transform: translate(-50%, -50%);
     border-radius: 12px; 
     background-color: gray;
-}
-
-a{
-    text-decoration: none;
 }
