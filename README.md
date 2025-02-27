@@ -1,1 +1,1 @@
-[https://alto-qrcodegenerator0827.netlify.app/]
+https://alto-qrcodegenerator0827.netlify.app/
